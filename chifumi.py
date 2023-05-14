@@ -3,7 +3,7 @@ from threading import Thread
 def player1():
     dic={1:"Rock",2:"Sheet",3:"Scissors"}
     value= input("Please make your choice:\n1-Rock\n2-Sheet\n3-Scissors\n")
-    value=int(value
+    value=int(value)
     computer_choice=randint(1,3)
     computer_choice=int(computer_choice)
     try:
